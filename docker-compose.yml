@@ -1,0 +1,6 @@
+services:
+  api:
+    build:
+      dockerfile: ./Dockerfile
+    ports:
+      - 8081:8080
